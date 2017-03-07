@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Project 1</string>
+    <string name="player_1">Player 1</string>
+    <string name="enter_name_here">Enter name here</string>
+    <string name="player_2">Player 2</string>
+    <string name="submit">submit</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hotter_colder">Hotter/Colder</string>
+    <string name="hangman">Hangman</string>
+    <string name="connect_4">Connect 4</string>
+    <string name="back">Back</string>
+    <string name="zero">0</string>
+    <string name="enter_a_guess_between_1_and_100">, enter a guess between 1 and 100.</string>
+    <string name="s_guess_count">\'s Guess Count:</string>
+    <string name="start_new_game">Start New Game</string>
+    <string name="reset_scores">Reset Scores</string>
+    <string name="misses">Misses:</string>
+    <string name="enter_a_letter">, enter a lowercase letter.</string>
+    <string name="quit">quit</string>
+    <string name="select_a_column_to_drop_your_chip">, select a column to drop your chip.</string>
+    <string name="choose_game">Choose Game</string>
+    <string name="blackjack">Blackjack</string>
+</resources>

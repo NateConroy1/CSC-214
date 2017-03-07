@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Logging</string>
+    <string name="nooice">NOOICE!</string>
+    <string name="display_rotated_0_times">Display Rotated 0 Times</string>
+</resources>

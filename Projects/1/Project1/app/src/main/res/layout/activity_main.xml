@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project01.csc214.project1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/name_screen_top_layout"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#001168">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/player1Text"
+            android:text="@string/player_1"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/player1EditText"
+            android:textSize="24sp"
+            android:background="#d7d8e0"
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="@string/enter_name_here" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/player2Text"
+            android:text="@string/player_2"
+            android:textSize="30sp"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/player2EditText"
+            android:textSize="24sp"
+            android:background="#d7d8e0"
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="@string/enter_name_here" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="2">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/submit_button"
+                android:text="@string/submit"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
