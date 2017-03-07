@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab 2</string>
+    <string name="happy_toast">Happy Toast</string>
+    <string name="sad_toast">Sad Toast</string>
+    <string name="clear">clear</string>
+    <string name="one_hundred">100</string>
+    <string name="reset">reset counter</string>
+    <string name="decrement">decrement</string>
+    <string name="im_happy">I\'M HAPPY!</string>
+    <string name="im_sad">I\'M SAD!</string>
+</resources>
