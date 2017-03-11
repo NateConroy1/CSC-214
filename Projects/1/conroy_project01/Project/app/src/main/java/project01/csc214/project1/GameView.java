@@ -2,6 +2,7 @@ package project01.csc214.project1;
 
 import android.app.Activity;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -43,5 +44,14 @@ public class GameView{
 
     public void setImageViewImage(ImageView view, int id) {
         view.setImageResource(id);
+    }
+
+    public void setImageButtonImage(ImageButton button, Integer id) {
+        if(id != null) {
+            button.setImageResource(id);
+        }
+        else {
+            button.setImageResource(0);
+        }
     }
 }

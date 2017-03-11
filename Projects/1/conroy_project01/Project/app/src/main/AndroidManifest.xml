@@ -28,7 +28,9 @@
             android:name=".Connect4Activity"
             android:label="@string/connect_4"
             android:screenOrientation="portrait" />
-        <activity android:name=".CheckersActivity"></activity>
+        <activity android:name=".CheckersActivity"
+            android:label="@string/checkers"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

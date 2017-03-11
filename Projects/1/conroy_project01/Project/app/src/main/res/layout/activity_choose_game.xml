@@ -47,6 +47,12 @@
                 android:id="@+id/launch_connect4_button"
                 android:text="@string/connect_4"/>
 
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/launch_checkers_button"
+                android:text="@string/checkers"/>
+
         </LinearLayout>
 
         <RelativeLayout

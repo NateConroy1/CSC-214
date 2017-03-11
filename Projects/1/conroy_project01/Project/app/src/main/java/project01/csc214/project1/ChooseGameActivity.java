@@ -22,6 +22,7 @@ public class ChooseGameActivity extends AppCompatActivity {
         Button hotterColderButton = (Button) findViewById(R.id.launch_hotter_colder_button);
         Button hangmanButton = (Button) findViewById(R.id.launch_hangman_button);
         Button connect4Button = (Button) findViewById(R.id.launch_connect4_button);
+        Button checkersButton = (Button) findViewById(R.id.launch_checkers_button);
 
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,6 +65,14 @@ public class ChooseGameActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(ChooseGameActivity.this, Connect4Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        checkersButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ChooseGameActivity.this, CheckersActivity.class);
                 startActivity(intent);
             }
         });

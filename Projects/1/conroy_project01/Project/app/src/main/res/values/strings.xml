@@ -20,4 +20,6 @@
     <string name="select_a_column_to_drop_your_chip">, select a column to drop your chip.</string>
     <string name="choose_game">Choose Game</string>
     <string name="blackjack">Blackjack</string>
+    <string name="checkers">Checkers</string>
+    <string name="it_s_your_turn">, it\'s your turn.</string>
 </resources>
