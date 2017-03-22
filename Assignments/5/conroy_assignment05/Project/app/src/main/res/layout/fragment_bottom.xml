@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffa3a3"
+    tools:context="assignment05.csc214.project.BottomFragment">
+
+    <TextView
+        android:id="@+id/bottom_fragment_textview"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="@string/no_message_sent_back" />
+
+</LinearLayout>

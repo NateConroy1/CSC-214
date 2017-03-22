@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffd8c"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="assignment05.csc214.project.TopFragment">
+
+    <TextView
+        android:id="@+id/top_fragment_textview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/no_message_received"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/top_fragment_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="15sp"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:hint="@string/type_message_here"
+        android:layout_weight="1"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/send_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send_back" />
+
+    </RelativeLayout>
+
+</LinearLayout>
