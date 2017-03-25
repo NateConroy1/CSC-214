@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="denotes_team_captain">* denotes team captain</string>
+    <string name="mens_cross_country_roster">Men\'s Cross Country Roster</string>
+</resources>
