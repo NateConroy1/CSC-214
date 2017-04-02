@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="project2.csc214.login.LoginFragment">
+
+    <EditText
+        android:id="@+id/username_slot"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="#FFF"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:hint="@string/email"/>
+
+    <EditText
+        android:id="@+id/password_slot"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:hint="@string/password"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="#FFF"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/login_cancel_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/cancel"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:theme="@style/Hooli.Button"
+            android:text="@string/log_in"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="project2.csc214.login.SignupPart1Fragment">
+
+    <EditText
+        android:id="@+id/first_name_slot"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:hint="@string/first_name"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="#FFF" />
+
+    <EditText
+        android:id="@+id/last_name_slot"
+        android:inputType="text"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:hint="@string/last_name"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="#FFF" />
+
+    <EditText
+        android:id="@+id/email_slot"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:hint="@string/email"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="#FFF"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/create_password_slot"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:hint="@string/password"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="8dp"
+        android:background="#FFF"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/select_birthday_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_birthday" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:id="@+id/valid_birthday_check"
+            android:text="@string/valid"
+            android:textColor="@android:color/white"
+            app:buttonTint="@android:color/white" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:text="@string/male"
+            android:id="@+id/male_radio_button"
+            android:textColor="@android:color/white"
+            app:buttonTint="@android:color/white"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:id="@+id/female_radio_button"
+            android:textColor="@android:color/white"
+            app:buttonTint="@android:color/white" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/signup_cancel_button"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/cancel"/>
+
+        <Button
+            android:id="@+id/join_button"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:theme="@style/Hooli.Button"
+            android:text="@string/join_hooli"/>
+
+    </LinearLayout>
+
+</LinearLayout>
