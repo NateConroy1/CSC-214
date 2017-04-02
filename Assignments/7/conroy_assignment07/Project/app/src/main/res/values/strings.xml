@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="event">event</string>
+    <string name="hometown">hometown</string>
+    <string name="year">year</string>
+    <string name="name">name</string>
+    <string name="add_new_runner">Add New Runner</string>
+    <string name="submit">submit</string>
+    <string name="add_runner">Add Runner</string>
+    <string name="recycler_view">Recycler View</string>
+    <string name="cancel">cancel</string>
+</resources>
