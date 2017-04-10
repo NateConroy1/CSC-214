@@ -17,7 +17,7 @@ import project2.csc214.model.ApplicationModel;
  */
 public class BirthdayPickerFragment extends DialogFragment implements DatePickerDialog.OnDateSetListener {
 
-    ApplicationModel mApplicationModel = ApplicationModel.getInstance();
+    ApplicationModel mApplicationModel = ApplicationModel.getInstance(getContext());
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {

@@ -15,4 +15,26 @@
     <string name="select_birthday">select birthday</string>
     <string name="valid">valid</string>
     <string name="join_hooli">join hooli+</string>
+    <string name="posts">Posts</string>
+    <string name="about">About</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="firstname_lastname">Firstname Lastname</string>
+    <string name="hometown">Hometown</string>
+    <string name="write_a_short_bio_here">Write a short bio here</string>
+    <string name="favorite_button">favorite button</string>
+    <string name="take_new_npicture">take new\npicture</string>
+    <string name="bio_n">Bio:\n\n</string>
+    <string name="hometown_colon">Hometown:</string>
+    <string name="birthday_colon">Birthday:</string>
+    <string name="gender_colon">Gender:</string>
+    <string name="log_out">Log Out</string>
+    <string name="my_profile">My Profile</string>
+    <string name="feed">Feed</string>
+    <string name="new_post">New Post</string>
+    <string name="this_is_sample_text_for_a_post">This is sample text for a post.</string>
+    <string name="favorites">Favorites</string>
+    <string name="all_users">All Users</string>
+    <string name="type_your_post_here">Type your post here</string>
+    <string name="add_image">add image</string>
+    <string name="post">post</string>
 </resources>

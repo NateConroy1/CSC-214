@@ -10,18 +10,16 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.RadioButton;
 
 import project2.csc214.hooli.R;
 import project2.csc214.model.ApplicationModel;
-import project2.csc214.model.User;
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class SignupPart1Fragment extends Fragment {
 
-    ApplicationModel mApplicationModel = ApplicationModel.getInstance();
+    ApplicationModel mApplicationModel = ApplicationModel.getInstance(getContext());
 
     public SignupPart1Fragment() {
         // Required empty public constructor
@@ -41,8 +39,8 @@ public class SignupPart1Fragment extends Fragment {
             }
         });
 
-        Button joinButton = (Button) inflatedView.findViewById(R.id.join_button);
-        joinButton.setOnClickListener(new View.OnClickListener() {
+        Button nextButton = (Button) inflatedView.findViewById(R.id.next_button);
+        nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 EditText firstName = (EditText) inflatedView.findViewById(R.id.first_name_slot);
@@ -52,20 +50,12 @@ public class SignupPart1Fragment extends Fragment {
                 mApplicationModel.getActiveUser().setLastName(lastName.getText().toString());
 
                 EditText email = (EditText) inflatedView.findViewById(R.id.email_slot);
-                mApplicationModel.getActiveUser().setEmail(email.getText().toString());
+                mApplicationModel.getActiveUser().setEmail(email.getText().toString().toLowerCase());
 
                 EditText password = (EditText) inflatedView.findViewById(R.id.create_password_slot);
                 mApplicationModel.getActiveUser().setPassword(password.getText().toString());
 
-                RadioButton genderMale = (RadioButton) inflatedView.findViewById(R.id.male_radio_button);
-                if(genderMale.isChecked()) {
-                    mApplicationModel.getActiveUser().setGender(User.MALE);
-                }
-                else {
-                    mApplicationModel.getActiveUser().setGender(User.FEMALE);
-                }
-
-                ((LoginActivity) getActivity()).onJoinHooliPlus();
+                ((LoginActivity) getActivity()).onJoinNext();
             }
         });
 
