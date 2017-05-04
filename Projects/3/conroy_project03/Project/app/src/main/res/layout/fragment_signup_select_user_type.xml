@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="finalproject.csc214.project.login.SignupSelectUserTypeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/i_am_a"/>
+
+    <RadioGroup
+        android:id="@+id/select_type_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/artist_band_manager_radio_button">
+
+        <RadioButton
+            android:id="@+id/artist_band_manager_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/GigFinderRadioButton"
+            android:text="@string/artist_band_manager"/>
+
+        <RadioButton
+            android:id="@+id/venue_owner_manager_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/GigFinderRadioButton"
+            android:text="@string/venue_owner_manager"/>
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/local_music_fan_radio_button"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--style="@style/GigFinderRadioButton"-->
+            <!--android:text="@string/local_music_fan"/>-->
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/fragment_signup_part_1_back_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            style="@style/GigFinderDarkButton"
+            android:text="@string/back"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/fragment_signup_part_1_next_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            style="@style/GigFinderDarkButton" />
+
+    </LinearLayout>
+
+</LinearLayout>

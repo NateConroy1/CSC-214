@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NatesTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+    <style name="GigFinderDarkButton" >
+        <item name="android:backgroundTint">@color/colorPrimaryDark2</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="GigFinderTab" >
+        <item name="android:background">@android:drawable/dialog_holo_dark_frame</item>
+        <item name="android:backgroundTint">@color/colorPrimary2</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="GigFinderEditText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+    
+    <style name="GigFinderRadioButton">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:buttonTint">@color/white</item>
+    </style>
+
+    <style name="GigFinderSpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

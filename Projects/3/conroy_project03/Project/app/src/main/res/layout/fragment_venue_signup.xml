@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="finalproject.csc214.project.login.VenueSignupFragment">
+
+    <EditText
+        android:id="@+id/venue_signup_name_edittext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        style="@style/GigFinderEditText"
+        android:hint="@string/venue_name"/>
+
+    <EditText
+        android:id="@+id/venue_signup_location_edittext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        style="@style/GigFinderEditText"
+        android:hint="@string/city_town"/>
+
+    <EditText
+        android:id="@+id/venue_signup_latitude_edittext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        style="@style/GigFinderEditText"
+        android:hint="@string/latitude"
+        android:inputType="numberSigned|numberDecimal"/>
+
+    <EditText
+        android:id="@+id/venue_signup_longitude_edittext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        style="@style/GigFinderEditText"
+        android:hint="@string/longitude"
+        android:inputType="numberSigned|numberDecimal"/>
+
+    <EditText
+        android:id="@+id/venue_signup_description_edittext"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:hint="@string/write_a_short_description"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fragment_venue_signup_back_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/back"
+            style="@style/GigFinderDarkButton"/>
+
+        <Button
+            android:id="@+id/fragment_venue_signup_submit_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            style="@style/GigFinderDarkButton"/>
+
+    </LinearLayout>
+
+</LinearLayout>

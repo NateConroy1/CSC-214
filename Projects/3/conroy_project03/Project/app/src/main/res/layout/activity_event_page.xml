@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_event_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="finalproject.csc214.project.event.EventPageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical"
+            android:background="@android:drawable/dialog_holo_light_frame">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_border"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/event_page_venue_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:text="@string/venue_name_here"/>
+
+                <TextView
+                    android:id="@+id/event_page_venue_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:text="@string/syracuse_ny"/>
+
+                <TextView
+                    android:id="@+id/event_page_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:text="@string/april_14_2017" />
+
+                <TextView
+                    android:id="@+id/event_page_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:text="@string/_7_pm"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/event_page_description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="@string/event_description_goes_here"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/event_page_join_button_container"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/event_page_join_show_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/GigFinderDarkButton"
+                android:text="@string/join_show"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="@string/performing_artists"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/event_page_performing_artists_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#b3b3b3">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="@string/location"/>
+
+        <FrameLayout
+            android:id="@+id/event_page_map_container"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@android:drawable/dialog_holo_light_frame">
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

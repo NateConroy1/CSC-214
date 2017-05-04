@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">GigFinder</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat dui dolor, et pretium tellus accumsan non. Sed ultrices tincidunt ipsum, convallis malesuada purus auctor et. Proin vel facilisis turpis, in aliquam libero. Nullam egestas eros dui, id auctor neque pretium hendrerit. Duis eu malesuada turpis. Vestibulum at odio eu nisi lobortis blandit. Quisque et interdum ligula. Fusce sed varius lorem. Nulla blandit luctus porttitor. In porttitor mauris ut sapien aliquam molestie.</string>
+    <string name="lorem_ipsum_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat dui dolor, et pretium tellus accumsan non. Sed ultrices tincidunt ipsum, convallis malesuada purus auctor et.</string>
+    <string name="syracuse_ny">Syracuse, NY</string>
+    <string name="song_name_2">Song Name #2</string>
+    <string name="song_name_1">Song Name #1</string>
+    <string name="band_name_here">Band Name Here</string>
+    <string name="upcoming_shows">Upcoming Shows</string>
+    <string name="biography">Biography</string>
+    <string name="venue_name_here">Venue Name Here</string>
+    <string name="location">Location</string>
+    <string name="performing_artists">Performing Artists</string>
+    <string name="april_14_2017">April 14, 2017</string>
+    <string name="_7_pm">7 PM</string>
+    <string name="event_description_goes_here">Event description goes here.</string>
+    <string name="events">Events</string>
+    <string name="artists">Artists</string>
+    <string name="venues">Venues</string>
+    <string name="gigfinder_logo">GigFinder logo</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="i_am_a">I am a</string>
+    <string name="artist_band_manager">Artist / Band Manager</string>
+    <string name="venue_owner_manager">Venue Owner / Manager</string>
+    <string name="local_music_fan">Local Music Fan</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="hometown">Hometown</string>
+    <string name="write_a_short_bio_here">Write a short bio here.</string>
+    <string name="venue_name">Venue Name</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="write_a_short_description">Write a short description.</string>
+    <string name="city_town">City / Town</string>
+    <string name="feed">Feed</string>
+    <string name="my_page">My Page</string>
+    <string name="log_out">Log Out</string>
+    <string name="new_event">New Event</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="write_a_description_of_the_event_here">Write a description of the event here.</string>
+    <string name="create_event">Create Event</string>
+    <string name="join_show">Join Show</string>
+    <string name="remove_from_show">Remove from Show</string>
+
+    <string-array name="genre_array">
+        <item>Genre</item>
+        <item>Alternative</item>
+        <item>Atmospheric</item>
+        <item>Bluegrass</item>
+        <item>Blues</item>
+        <item>Classical</item>
+        <item>Country</item>
+        <item>Dance</item>
+        <item>Easy Listening</item>
+        <item>Electronic</item>
+        <item>European</item>
+        <item>Folk</item>
+        <item>Hardcore Rock</item>
+        <item>Hip Hop / Rap</item>
+        <item>Indie</item>
+        <item>Inspirational</item>
+        <item>K-Pop</item>
+        <item>Jazz</item>
+        <item>Latin</item>
+        <item>Metal</item>
+        <item>New Age</item>
+        <item>Opera</item>
+        <item>Pop</item>
+        <item>Pop Punk</item>
+        <item>Punk Rock</item>
+        <item>R&amp;B / Soul</item>
+        <item>Reggae</item>
+        <item>Rock</item>
+        <item>Soft Rock</item>
+        <item>Other</item>
+    </string-array>
+</resources>

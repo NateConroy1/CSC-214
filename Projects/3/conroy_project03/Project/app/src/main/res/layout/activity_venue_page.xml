@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_venue_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="finalproject.csc214.project.venue.VenuePageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@android:drawable/dialog_holo_dark_frame"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/venue_page_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/venue_name_here"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/venue_page_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text="@string/syracuse_ny"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/venue_page_picture"
+                    android:layout_centerInParent="true"
+                    android:layout_width="230dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/empty"/>
+
+                <LinearLayout
+                    android:id="@+id/venue_page_image_buttons_container"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+
+                    android:layout_toEndOf="@id/venue_page_picture"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/venue_page_take_picture"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:backgroundTint="@color/colorPrimary2"
+                        android:src="@android:drawable/ic_menu_camera"
+                        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+                    <ImageButton
+                        android:id="@+id/venue_page_upload_photo"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:backgroundTint="@color/colorPrimary2"
+                        android:src="@android:drawable/ic_menu_upload_you_tube"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="@string/upcoming_shows"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/venue_page_upcoming_shows_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#b3b3b3">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="@string/location"/>
+
+        <FrameLayout
+            android:id="@+id/venue_page_map_container"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@android:drawable/dialog_holo_light_frame">
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

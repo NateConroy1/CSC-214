@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary2"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="finalproject.csc214.project.event.NewEventActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/new_event_select_date_button"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            style="@style/GigFinderDarkButton"
+            android:text="@string/select_date"/>
+
+        <CheckBox
+            android:id="@+id/new_event_date_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/new_event_select_time_button"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            style="@style/GigFinderDarkButton"
+            android:text="@string/select_time"/>
+
+        <CheckBox
+            android:id="@+id/new_event_time_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/new_event_spinner_select_venue"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        style="@style/GigFinderSpinnerItemStyle"/>
+
+    <EditText
+        android:id="@+id/new_event_description_edittext"
+        android:background="@color/white"
+        android:hint="@string/write_a_description_of_the_event_here"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="250dp"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/new_event_cancel_button"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/cancel"/>
+
+        <Button
+            android:id="@+id/new_event_create_event_button"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            style="@style/GigFinderDarkButton"
+            android:text="@string/create_event"/>
+
+    </LinearLayout>
+
+</LinearLayout>
